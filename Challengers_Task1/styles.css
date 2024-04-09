@@ -80,7 +80,7 @@ nav {
 }
 
 .card:hover {
-	background: black;
+	background: rgb(29, 29, 29);
 	box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.36);
 	color: white;
 	transition-property: background, box-shadow, color;
