@@ -8,25 +8,26 @@ nav {
   background: #fff;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
-  border-radius: 30px;
+  margin: 0.6em;
+  height: 3.7em;
+  border-radius: 1.8em;
   box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.36);
 }
 
 .logo img,
-.quick_access img{
-  width: 35px;
-  height: 30px;
+.quick_access img {
+  width: 2.1em;
+  height: 1.8em;
 }
 
 .logo {
 	display: flex;
-	margin-left: 30px;
+	margin-left: 1.8em;
 }
 
 .logo:hover {
 	box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.36);
-	border-radius: 5px;
+	border-radius: 0.3em;
 	transition:box-shadow 2s;
 }
 
@@ -36,7 +37,7 @@ nav {
 }
 
 .links li {
-  margin-right: 30px;
+  margin-right: 1.8em;
 }
 
 .links li a {
@@ -50,17 +51,17 @@ nav {
 
 .quick_access {
 	display: flex;
-	margin-right: 15px;
+	margin-right: 0.9em;
 }
 
 .quick_access img {
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 0.6em;
+	margin-left: 0.6em;
 }
 
 .quick_access img:hover {
 	box-shadow: 0px 0px 85px 0px rgba(0,0,0,0.36);
-	border-radius: 5px;
+	border-radius: 0.3em;
 	transition:box-shadow 2s;
 }
 
@@ -72,10 +73,10 @@ nav {
 }
 
 .card {
-	margin: 50px;
+	margin: 3em;
 	height: 50em;
 	width: 50em;
-	border-radius: 30px;
+	border-radius: 1.8em;
 	box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.36);
 }
 
@@ -130,4 +131,46 @@ nav {
 .options li img {
 	height: 1em;
 	width: 1em;
+}
+
+@media (max-height: 844px) and (max-width: 390px), screen and (orientation: portrait) {
+
+	nav {
+		display: flex;
+		background: #fff;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0.6em;
+		width: 49.3em;
+		border-radius: 1.8em;
+		box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.36);
+	  }
+	
+	.logo img {
+  		width: 1.1em;
+  		height: 1.8em;
+	}
+
+	.quick_access img {
+		width: 1.1em;
+		height: 1.8em;
+	}
+
+	.cards {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.cards {
+		margin-left: 25em;
+	}
+
+	.card {
+		height: 50em;
+		width: 35em;
+		border-radius: 1.8em;
+		box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.36);
+	}
 }
