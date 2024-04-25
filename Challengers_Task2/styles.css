@@ -1,0 +1,483 @@
+body {
+    
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: scroll;
+}
+
+.test {
+    background-color: black;
+}
+
+.background1 {
+    margin: 0;
+    width: 100%;
+    height: 75em;
+    opacity: 0.5;
+}
+
+.test .title {
+    display: flex;
+    position: absolute;
+    top: 0em;
+    left: 1.8em;
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.links {
+    display: flex;
+    position: absolute;
+    right: 1.8em;
+    top: 2.95em;
+}
+  
+.links li a {
+    font-size: 1.4em;
+    color: white;
+    margin-left: 1.8em;
+    text-decoration: none;
+}
+
+.links li a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.search p {
+    position: absolute;
+    color: white;
+    font-size: 5em;
+    left: 1.15em;
+    top: 3.8em;
+    font-weight: bolder;
+    
+}
+
+.search h5 {
+    position: absolute;
+    top: 39em;
+    left: 6.5em;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+.bar {
+    position: absolute;
+    top: 43em;
+    left: 6.5em;
+    border: none;
+    font-size: 1em;
+    box-shadow: 0px 4px 45px 0px rgba(0,0,0,0.36);
+    width: 38em;
+    height: 3em;
+}
+
+.submit {
+    position: absolute;
+    top: 51.9em;
+    left: 49em;
+    height: 3em;
+    width: 4em;
+    border: none;
+    background: white;
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.submit:hover {
+    background-color: rgb(194, 194, 194);
+}
+  
+.submit:active {
+    box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.test2 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.background2 {
+    margin: 0;
+    width: 100%;
+    height: 35em;
+    opacity: 0.2;
+}
+
+.test2 h3 {
+    color: white;
+    font-size: 1.5em;
+}
+
+.test2 .column1head {
+    position: absolute;
+    margin-left: 6.5em;
+    margin-top: 7em;
+}
+
+.test2 .column2head {
+    position: absolute;
+    margin-left: 34.5em;
+    margin-top: 7em;
+}
+
+.test2 .column3head {
+    position: absolute;
+    margin-left: 61.5em;
+    margin-top: 7em;
+}
+
+.test2 .shieldsvg {
+    position: absolute;
+    margin-left: 5em;
+    margin-top: 7em;
+}
+
+.test2 .locationsvg {
+    position: absolute;
+    margin-left: 47em;
+    margin-top: 7em;
+}
+
+.test2 .walletsvg {
+    position: absolute;
+    margin-left: 88em;
+    margin-top: 7em;
+}
+
+.test2 p {
+    color: white;
+}
+
+.test2 .column1body {
+    position: absolute;
+    margin-left: 10em;
+    margin-top: 15em;
+    line-height: 2;
+}
+
+.test2 .column2body {
+    position: absolute;
+    margin-left: 52em;
+    margin-top: 15em;
+    line-height: 2;
+}
+
+.test2 .column3body {
+    position: absolute;
+    margin-left: 92.6em;
+    margin-top: 15em;
+    line-height: 2;
+}
+
+
+.test2 button {
+    background: white;
+    height: 4em;
+    width: 9em;
+    border: none;
+    border-radius: 1.8em;
+    box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.test2 button:hover {
+    background-color: rgb(194, 194, 194);
+}
+  
+.test2 button:active {
+    box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.test2 .readmore1 {
+    position: absolute;
+    margin-left: 18em;
+    margin-top: 32em;
+}
+
+.test2 .readmore2 {
+    position: absolute;
+    margin-left: 70em;
+    margin-top: 32em;
+}
+
+.test2 .readmore3 {
+    position: absolute;
+    margin-left: 118em;
+    margin-top: 32em;
+}
+
+.test3 {
+    background-color: rgb(209, 209, 209);
+}
+
+.background3 {
+    margin: 0;
+    width: 100%;
+    height: 50em;
+    opacity: 0;
+}
+
+.test3 h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.test3 .heading {
+    position: absolute;
+    margin-top: -15em;
+    margin-left: 2em;
+}
+
+.test3 h4 {
+    font-size: 1.5em;
+}
+
+.test3 .subheading {
+    position: absolute;
+    margin-top: -23em;
+    margin-left: 4em;
+}
+
+.test3 p {
+    position: absolute;
+    margin-top: -30em;
+    margin-left: 6em;
+    line-height: 2em;
+}
+
+.test3 h6 {
+    font-size: 1.3em;
+}
+
+.test3 .point1 {
+    position: absolute;
+    margin-top: -14em;
+    margin-left: 4.6em;
+}
+
+.test3 .point2 {
+    position: absolute;
+    margin-top: -11.5em;
+    margin-left: 4.6em;
+}
+
+.test3 .point3 {
+    position: absolute;
+    margin-top: -9em;
+    margin-left: 4.6em;
+}
+
+.test3 .point4 {
+    position: absolute;
+    margin-top: -6.5em;
+    margin-left: 4.6em;
+}
+
+.test3 .subheading2 {
+    position: absolute;
+    margin-top: -23em;
+    margin-left: 50em;
+}
+
+.video {
+    position: absolute;
+    height: 20em;
+    width: 40em;
+    margin-top: 20.5em;
+    margin-left: -44em;
+}
+
+.playbutton {
+    position: absolute;
+    z-index: 1;
+    margin-top: 27em;
+    margin-left: -27em;
+}
+
+.videosub {
+    position: absolute;
+    color: grey;
+    padding-top: 21em;
+    padding-left: 69em;
+}
+
+.test4 h3 {
+    font-weight: bold;
+}
+
+.test4 h6 {
+    font-size: 0.8em;
+}
+
+.stage1svg {
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 6em;
+}
+
+.stagename1 {
+    position: absolute;
+    margin-top: 4.4em;
+    margin-left: 11em;
+}
+
+.stageno1 {
+    position: absolute;
+    color: rgb(175, 173, 173);
+    margin-top: 4.4em;
+    margin-left: 15.6em;
+}
+
+.stagestatus1 {
+    position: absolute;
+    color: rgb(131, 131, 131);
+    margin-top: 8.8em;
+    margin-left: 16em;
+}
+
+.stage2svg {
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 32.5em;
+}
+
+.stagename2 {
+    position: absolute;
+    margin-top: 4.4em;
+    margin-left: 34em;
+}
+
+.stageno2 {
+    position: absolute;
+    color: rgb(175, 173, 173);
+    margin-top: 4.4em;
+    margin-left: 48em;
+}
+
+.stagestatus2 {
+    position: absolute;
+    color: rgb(131, 131, 131);
+    margin-top: 8.8em;
+    margin-left: 49.8em;
+}
+
+.stage3svg {
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 63em;
+}
+
+.stagename3 {
+    position: absolute;
+    margin-top: 4.4em;
+    margin-left: 59em;
+}
+
+.stageno3 {
+    position: absolute;
+    color: rgb(175, 173, 173);
+    margin-top: 4.4em;
+    margin-left: 83.2em;
+}
+
+.stagestatus3 {
+    position: absolute;
+    color: rgb(131, 131, 131);
+    margin-top: 8.8em;
+    margin-left: 86.3em;
+}
+
+.stage4svg {
+    position: absolute;
+    margin-top: 3em;
+    margin-left: 93em;
+}
+
+.stagename4 {
+    position: absolute;
+    margin-top: 4.4em;
+    margin-left: 85em;
+    color: rgb(150, 148, 148);
+}
+
+.stageno4 {
+    position: absolute;
+    color: rgb(221, 221, 221);
+    margin-top: 4.4em;
+    margin-left: 119.9em;
+}
+
+.stagestatus4 {
+    position: absolute;
+    color: rgb(175, 173, 173);
+    margin-top: 8.8em;
+    margin-left: 124.5em;
+}
+
+.design {
+    position: absolute;
+    margin-top: 13em;
+    margin-left: 5em;
+}
+
+.test4 h4 {
+    font-weight: bold;
+}
+
+.test4 .heading {
+    font-size: 2em;
+    position: absolute;
+    margin-top: 12.5em;
+    margin-left: 7em;
+    font-weight: bolder;
+}
+
+.villapic {
+    position: absolute;
+    z-index: 1;
+    width: 50em;
+    height: 30em;
+    margin-top: 30em;
+    margin-left: 20em;
+}
+
+.test4 .point1 {
+    position: absolute;
+    font-size: 1.4em;
+    margin-top: 23em;
+    margin-left: 55em;
+    padding-bottom: 25em;
+}
+
+.test4 .point1lorem {
+    position: absolute;
+    margin-top: 35em;
+    margin-left: 77em;
+}
+
+.test4 .point2 {
+    position: absolute;
+    font-size: 1.4em;
+    margin-top: 33em;
+    margin-left: 55em;
+}
+
+.test4 .point2lorem {
+    position: absolute;
+    margin-top: 49em;
+    margin-left: 77em;
+}
