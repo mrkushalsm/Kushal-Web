@@ -1,0 +1,247 @@
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+* {
+    background-color: rgb(32, 32, 32);
+}
+
+.header {
+    display: flex;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 5em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.header_2 {
+    display: flex;
+    position: absolute;
+    top: 33.5%;
+    right: 43.3%;
+    font-family: "Open Sans", sans-serif;
+    color: blue
+}
+
+.header_3 {
+    display: flex;
+    position: absolute;
+    left: 1%;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.header_4 {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(252, 97, 97);
+}
+
+.search {
+    display: flex;
+    margin-left: 34.5%;
+    background-color: rgb(32, 32, 32);
+    background-image: url("https://img.icons8.com/?size=100&id=83218&format=png&color=676767");
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0.5em;
+    border-style: solid;
+    border-color: rgb(67, 67, 67);
+    border-width: 1px;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.5em;
+    padding-block: 0.5em;
+    padding-inline: 2.5em;
+    width: 25em;
+}
+
+.search:hover {
+    background-color: rgb(67, 67, 67);
+}
+
+.search:focus {
+    border-color: rgb(67, 67, 67);
+    background-color: rgb(67, 67, 67);
+    outline-style: none;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;    
+    padding-block: 0.6em;
+    padding-inline: 1.5em;
+    font-size: 0.9em;
+    background-color: rgb(49, 49, 49);
+    border-color: rgb(49, 49, 49);
+    border-style: solid;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    border-color: rgb(67, 67, 67);
+}
+
+#submit {
+    left: 41.5%;
+    top: 50.5%;
+}
+
+#feeling-lucky {
+    left: 50.5%;
+    top: 50.5%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    color: white;
+}
+
+.links > h4 {
+    padding-left: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.page:hover {
+    text-decoration: underline;
+}
+
+.main_heading {
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main_heading_2 {
+    top: 21%;
+    left: 52.9%;
+    display: flex;
+    position: absolute;
+    color: white;
+}
+
+.sub_heading {
+    color: grey;
+    display: flex;
+    position: absolute;
+    left: 5%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.adv_search {
+    display: flex;
+    position: absolute;
+    left: 20%;
+    border-style: solid;
+    border-color: rgb(67, 67, 67);
+    border-width: 1px;
+    width: 45em;
+    height: 2em;
+    color: white;
+    padding-inline: 1em;
+}
+
+#adv1 {
+    top: 25%;
+}
+
+#adv2 {
+    top: 30%;
+}
+
+#adv3 {
+    top: 35%;
+}
+
+#adv4 {
+    top: 40%;
+}
+
+#adv5 {
+    top: 45%;
+}
+
+#adv6 {
+    top: 50%;
+}
+
+.adv_search:focus {
+    border-color: rgb(117, 117, 253);
+    outline-style: none;
+}
+
+.info {
+    display: flex;
+    position: absolute;
+    color: white;
+    left: 53%;
+}
+
+#key {
+    color: gray;
+}
+
+#value1 {
+    left: 61.3%;
+}
+
+#value2 {
+    left: 61%;
+}
+
+#value3 {
+    left: 65.7%;
+}
+
+#value4 {
+    left: 69.8%;
+}
+
+.buttons_2 {
+    display: flex;
+    position: absolute;
+    color: black;
+    background-color: rgb(117, 117, 253);
+    height: 3em;
+    width: 10em;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(117, 117, 253);
+    border-width: 1px;
+    top: 48%;
+    left: 44.3%;
+}
+
+.buttons_2:hover {
+    background-color: rgb(158, 158, 248);
+    cursor: pointer;
+}
