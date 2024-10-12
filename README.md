@@ -13,5 +13,10 @@ https://challengerstask2.netlify.app/
 
 Project 0:-
 https://cs50w-project0-google.netlify.app/
+<br>
 
+## MERN Skill Lab 🏫🌐
+
+Assignment 1:-
+https://mernassignment1.netlify.app/
 <br>
