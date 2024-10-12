@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Food Paradise</title>
+</head>
+<body>
+    <div class="head">
+        <h1>Food Paradise</h1>
+        <h2 class="h2">Menu</h2>
+        <a class="orders_page_link" href="carts.html">🛒</a>
+        <a class="home_page_link" href="index.html">Home</a>
+        <a class="about_page_link" href="about.html">About</a>
+        <a class="contact_page_link" href="contacts.html">Contacts</a>
+        <a class="menu_page_link" href="menu.html">Menu</a>
+    </div>
+    <br>
+    <main>
+        <h2 class="sub_menu_head">Starters</h2>
+        <section class="tiles_container">
+            <div class="tile">
+                <h3 class="tile_head">Tomato Soup</h3 class="tile_head">
+                <img src="../images/starters/tomatosoup.png" alt="tomatosoup">
+                <p class="tile_info">Tomato soup is a soup with tomatoes as the primary ingredient.</p>
+                <p class="tile_info">Price: $5.99</p>
+                <button class="add_to_cart" onclick="addToCart('Tomato Soup', 5.99)">Add to Cart 🛒</button>
+            </div>
+            <div class="tile">
+                <h3 class="tile_head">Spring Rolls</h3 class="tile_head">
+                <img src="../images/starters/springrolls.png" alt="springrolls">
+                <p class="tile_info">Spring rolls are rolled appetizers commonly found in Asian cuisine.</p>
+                <p class="tile_info">Price: $4.99</p>
+                <button class="add_to_cart" onclick="addToCart('Spring Rolls', 4.99)">Add to Cart 🛒</button>
+            </div>
+            <div class="tile">
+                <h3 class="tile_head">Garlic Bread</h3 class="tile_head">
+                <img src="../images/starters/garlicbread.png" alt="garlicbread">
+                <p class="tile_info">Garlic bread consists of bread, topped with garlic and olive oil or butter.</p>
+                <p class="tile_info">Price: $3.99</p>
+                <button class="add_to_cart" onclick="addToCart('Garlic Bread', 3.99)">Add to Cart 🛒</button>
+            </div>
+        </section>
+        <h2 class="sub_menu_head">Main Course</h2>
+        <section class="tiles_container">
+            <div class="tile">
+                <h3 class="tile_head">Grilled Paneer</h3 class="tile_head">
+                <img src="../images/main_course/paneertikka.png" alt="paneertikka">
+                <p class="tile_info">Grilled paneer is a popular Indian dish made from marinated paneer.</p>
+                <p class="tile_info">Price: $10.99</p>
+                <button class="add_to_cart" onclick="addToCart('Grilled Paneer', 10.99)">Add to Cart 🛒</button>
+            </div>
+            <div class="tile">
+                <h3 class="tile_head">Paneer Butter Masala</h3 class="tile_head">
+                <img src="../images/main_course/paneerbuttermasala.png" alt="paneerbuttermasala">
+                <p class="tile_info">Paneer Butter Masala is a rich and creamy North Indian curry.</p>
+                <p class="tile_info">Price: $12.99</p>
+                <button class="add_to_cart" onclick="addToCart('Paneer Butter Masala', 12.99)">Add to Cart 🛒</button>
+            </div>
+            <div class="tile">  
+                <h3 class="tile_head">Mixed Vegetable Curry</h3 class="tile_head">
+                <img src="../images/main_course/mixedvegetablecurry.png" alt="mixedvegetablecurry">
+                <p class="tile_info">Mixed vegetable curry is a flavorful and healthy Indian dish.</p>
+                <p class="tile_info">Price: $9.99</p>
+                <button class="add_to_cart" onclick="addToCart('Mixed Vegetable Curry', 9.99)">Add to Cart 🛒</button>
+            </div>
+        </section>
+        <h2 class="sub_menu_head">Desserts</h2>
+        <section class="tiles_container">
+            <div class="tile">
+                <h3 class="tile_head">Chocolate Cake</h3 class="tile_head">
+                <img src="../images/dessert/dessert.png" alt="dessert">
+                <p class="tile_info">Chocolate cake is a rich and moist dessert made with cocoa powder.</p>
+                <p class="tile_info">Price: $6.99</p>
+                <button class="add_to_cart" onclick="addToCart('Chocolate Cake', 6.99)">Add to Cart 🛒</button>
+            </div>
+            <div class="tile">
+                <h3 class="tile_head">Ice Cream Sundae</h3 class="tile_head">
+                <img src="../images/dessert/icecreamsundae.png" alt="icecreamsundae">
+                <p class="tile_info">An ice cream sundae is a classic dessert with toppings like chocolate or caramel.</p>
+                <p class="tile_info">Price: $5.99</p>
+                <button class="add_to_cart" onclick="addToCart('Ice Cream Sundae', 5.99)">Add to Cart 🛒</button>
+            </div>
+            <div class="tile">
+                <h3 class="tile_head">Gulab Jamun</h3 class="tile_head">
+                <img src="../images/dessert/gulabjamun.png" alt="gulabjamun">
+                <p class="tile_info">Gulab Jamun is a popular Indian dessert made from fried dough balls.</p>
+                <p class="tile_info">Price: $4.99</p>
+                <button class="add_to_cart" onclick="addToCart('Gulab Jamun', 4.99)">Add to Cart 🛒</button>
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <br>
+        <p>© 2024 Food Paradise. All rights reserved.</p>
+        <p>Contact Us: +123-456-7890 | Email: info@foodparadise.com</p>
+        <br>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
