@@ -1,0 +1,51 @@
+.tile {
+    width: 20em;
+    height: 30em;
+    text-align: center;
+    border-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-width: 100px;
+    background-color: wheat;
+}
+
+.tile_head {
+    color: darksalmon;
+}
+
+.tile_info {
+    font-size: 1em;
+    text-align: center;
+    color: rgb(128, 91, 79);
+}
+
+.tile_full_info {
+    padding-left: 3em;
+    padding-right: 3em;
+    color: rgb(128, 91, 79);
+}
+
+.add_to_cart {
+    position: relative;
+    top: 1em;
+    border-style: none;
+    height: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 10px;
+    font-size: 1em;
+    z-index: 1;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #77c979;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #509c54;
+}

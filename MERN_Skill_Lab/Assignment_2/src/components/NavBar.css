@@ -1,0 +1,67 @@
+h1 {
+    color: rgb(46, 75, 46);
+    background-color: lightgreen;
+    font-style: bold;
+    text-align: center;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.h2 {
+    color: red;
+    text-align: center;
+}
+
+.orders_page_link {
+    font-size: 1.5em;
+    position: absolute;
+    top: 3.8%;
+    left: 1.8%;
+    border-radius: 10px;
+    background-color: rgb(141, 235, 141);
+}
+
+.menu_page_link {
+    color: rgb(86, 138, 86);
+    font-size: 1.5em;
+    position: absolute;
+    top: 4.4%;
+    right: 11.3%;
+    border-radius: 10px;
+    background-color: rgb(141, 235, 141);
+}
+
+.home_page_link {
+    color: rgb(86, 138, 86);
+    font-size: 1.5em;
+    position: absolute;
+    top: 4.4%;
+    right: 15.68%;
+    border-radius: 10px;
+    background-color: rgb(141, 235, 141);
+}
+
+.contact_page_link {
+    color: rgb(86, 138, 86);
+    font-size: 1.5em;
+    position: absolute;
+    top: 4.4%;
+    right: 5.7%;
+    border-radius: 10px;
+    background-color: rgb(141, 235, 141);
+}
+
+.about_page_link {
+    color: rgb(86, 138, 86);
+    font-size: 1.5em;
+    position: absolute;
+    top: 4.4%;
+    right: 1.5%;
+    border-radius: 10px;
+    background-color: rgb(141, 235, 141);
+}
+
+span {
+    text-decoration: none;
+    color: black;
+}

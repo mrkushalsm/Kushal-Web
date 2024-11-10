@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+input, textarea {
+    width: 300px;
+    margin-bottom: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form, .contact-details {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+.contact-details {
+    position: relative;
+    top: 8.2em;
+}
+
+.contact-form {
+    position: relative;
+    top: -6.8em;
+}
