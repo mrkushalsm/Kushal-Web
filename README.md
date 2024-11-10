@@ -21,5 +21,5 @@ Assignment 1:-
 [https://mernassignment1.netlify.app/](https://mernassignment1.netlify.app/)
 
 Assignment 2:-
-[https://mernassignment1.netlify.app/](https://mernassignment2.netlify.app/)
+[https://mernassignment2.netlify.app/](https://mernassignment2.netlify.app/)
 <br>
