@@ -1,0 +1,13 @@
+ul, li {
+    display: flex;
+    text-decoration: none;
+    position: relative;
+    left: 41%;
+    color: black;
+    gap: 2em;
+    top: 0.5em;
+}
+
+li {
+    font-size: 1.5em;
+}

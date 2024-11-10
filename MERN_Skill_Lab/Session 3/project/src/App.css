@@ -1,0 +1,6 @@
+h1 {
+    display: flex;
+    position: absolute;
+    top: 0.5em;
+    left: 1em;
+}
