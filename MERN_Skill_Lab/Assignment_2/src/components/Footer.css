@@ -1,0 +1,11 @@
+footer {
+    color: rgb(124, 67, 67);
+    background-color: lightcoral;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    /* margin-top: 13em; */
+    margin-top: 40%;
+}
