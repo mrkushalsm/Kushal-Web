@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar";
-import {Routes, Route} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 import {useMediaQuery} from "react-responsive";
 import Home from "./pages/Home";
 import About from "./pages/About";
