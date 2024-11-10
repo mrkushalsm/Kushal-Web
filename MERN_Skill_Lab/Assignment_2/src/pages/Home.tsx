@@ -26,6 +26,8 @@
 
 // export default Home;
 
+import "../App.css"
+
 const Home = () => {
   return (
     <>

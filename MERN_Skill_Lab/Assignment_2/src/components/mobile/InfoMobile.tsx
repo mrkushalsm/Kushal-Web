@@ -1,4 +1,4 @@
-import "./Info.module.css";
+import styles from "./InfoMobile.module.css";
 
 interface Props {
   phone_no: string;
@@ -6,18 +6,18 @@ interface Props {
   address: string;
 }
 
-const Info = (props: Props) => {
+const InfoMobile = (props: Props) => {
   return (
     <>
-      <div className="contact-details">
+      <div className={styles.contact_details}>
         <h3>Our Contact Information</h3>
-        <p>
+        <p className={styles.p}>
           <strong>Phone:</strong> {props.phone_no}
         </p>
-        <p>
+        <p className={styles.p}>
           <strong>Email:</strong> {props.email}
         </p>
-        <p>
+        <p className={styles.p}>
           <strong>Address:</strong> {props.address}
         </p>
       </div>
@@ -25,4 +25,4 @@ const Info = (props: Props) => {
   );
 };
 
-export default Info;
+export default InfoMobile;

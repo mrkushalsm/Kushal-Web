@@ -1,4 +1,4 @@
-import styles from "./Table.module.css"
+import styles from "./TableMobile.module.css"
 
 interface Props {
     name: string;
@@ -7,7 +7,7 @@ interface Props {
     date: string;
 }
 
-const TableHead = (props: Props) => {
+const TableHeadMobile = (props: Props) => {
     return (
         <tr>
             <td className={styles.td}><strong>{props.name}</strong></td>
@@ -18,4 +18,4 @@ const TableHead = (props: Props) => {
     );
 };
 
-export default TableHead;
+export default TableHeadMobile;

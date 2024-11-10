@@ -1,20 +1,14 @@
-.contact-form, .contact-details {
+.contact_details {
     display: inline-block;
     text-align: center;
     margin: auto;
 }
 
-.contact-details {
+.contact_details {
     position: relative;
-    top: 8.2em;
 }
 
-.contact-form {
-    position: relative;
-    top: -6.8em;
-}
-
-p {
+.p {
     text-wrap: balance;
     text-align: center;
     font-size: 1.5em;

@@ -1,0 +1,14 @@
+.table {
+    position: absolute;
+    border: 1px solid;
+    left: 1%;
+}
+
+.th, .td {
+    border-style: ridge;
+}
+
+.table, .th, .td {
+    font-size: 0.988em;
+    text-align: center;
+}
