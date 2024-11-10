@@ -25,6 +25,7 @@ const About = () => {
     },
   };
 
+    // @ts-expect-error key not used
   const reviewBody = Object.entries(review).map(([key, value]) => (
     <>
       <TableBody
@@ -139,7 +140,6 @@ const About = () => {
       <br />
       <br />
       <h2 className="h2">Reviews</h2>
-      {/* Temprorary adding <table> tag, will make it a proper component later */}
       <table>
       <TableHead
         name="Customer Name"

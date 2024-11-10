@@ -179,8 +179,9 @@ const Menu = () => {
         },
     };
 
+    // @ts-expect-error item type any
     const addToCart = (item) => {
-        let cart = JSON.parse(localStorage.getItem("cart") || "[]");
+        const cart = JSON.parse(localStorage.getItem("cart") || "[]");
         cart.push(item);
         localStorage.setItem("cart", JSON.stringify(cart));
         alert(`${item.name} added to the cart!`);
